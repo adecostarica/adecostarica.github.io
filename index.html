@@ -277,12 +277,12 @@
                             <form class="contact-form" action="http://formspree.io/fabianmorar1223@gmail.com" method="post">
                                 <input type="text" placeholder="Nombre" name="name" />
                                 <input type="email" placeholder="Email" name="_replyto" />
-                                <input type="text" placeholder="Asunto" value="" name="_subject" style=" width: 95%;" />
-                                <textarea class="required" placeholder="Mensaje" name="text"></textarea>
+                                <input type="hidden" name="_subject" value="New submission!" />
+                                <textarea placeholder="Mensaje" name="message"></textarea>
                                 <div class="submit-wraper">
                                     <div><input class="button" type="submit" value="Enviar"></div>
                                 </div>
-                                <input type="hidden" name="mailto" value="ventas@tesla.digital" style="display: none;" />
+                                <input type="hidden" name="_next" value="//site.io/thanks.html" />
                             </form>
                         </div>
                         <div class="form-popup">
