@@ -202,7 +202,7 @@ textarea{width: 94%; height: 125px;}
 ::-moz-placeholder {color:#777777; opacity: 1;}
 :-ms-input-placeholder {color:#777777;}
 .submit-wraper{position: relative; float: left; width: 100%; text-align: center; margin-top: 32px;}
-form input[type="submit"]{position: absolute; left: 0px; top: 0px; opacity: 0; width: 100%; height: 100%; border: 0px; z-index: 2;}
+form input[type="submit"]{left: 0px; top: 0px; height: 100%; border: 0px; z-index: 2;}
 .error-class{border-color: #ff0036!important;}
 /*form popup*/
 .form-popup{position: fixed; width: 100%; height: 100%; left: 0; top: 0; z-index: 12; display: none;}

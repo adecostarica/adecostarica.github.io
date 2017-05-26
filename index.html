@@ -274,13 +274,13 @@
                             </div>    
                         </div>
                         <div class="col-md-7 col-md-offset-1 wow fadeInRight" data-wow-delay="0.3s">
-                            <form class="contact-form"  method="post">
+                            <form class="contact-form"  method="post" action="send_mail.php">
                                 <input class="required" type="text" placeholder="Nombre" value="" name="name" />
                                 <input class="required" type="text" placeholder="Email" value="" name="email" />
                                 <input type="text" placeholder="Asunto" value="" name="subject" style=" width: 95%;" />
                                 <textarea class="required" placeholder="Mensaje" name="text"></textarea>
                                 <div class="submit-wraper">
-                                    <div class="button">Enviar<input type="submit" value="Enviar" /></div>
+                                    <div><input class="button" type="submit" value="Enviar"></div>
                                 </div>
                                 <input type="hidden" name="mailto" value="ventas@tesla.digital" style="display: none;" />
                             </form>
